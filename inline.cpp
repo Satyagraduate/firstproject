@@ -22,7 +22,8 @@ inline void chaseoperation::sum()
 }
 inline void chaseoperation::pro()
 {
-	mul= a*b;
+	mul=a+b;
+	mul=a*b;
 	cout<<"The product is:"<<mul<<endl;
 }
 int main()
